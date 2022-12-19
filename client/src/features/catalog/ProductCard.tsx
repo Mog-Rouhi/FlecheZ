@@ -19,7 +19,7 @@ export default function ProductCard({ product }: Props) {
     <Card>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "#eca0a8" }}>
+          <Avatar sx={{ bgcolor: "primary.dark" }}>
             {product.name.charAt(0).toUpperCase()}
           </Avatar>
         }
@@ -32,7 +32,7 @@ export default function ProductCard({ product }: Props) {
         sx={{
           height: 140,
           backgroundSize: "contain",
-          bgcolor: "#f9f5f2",
+          bgcolor: "",
         }}
         image={product.pictureUrl}
         title={product.name}
