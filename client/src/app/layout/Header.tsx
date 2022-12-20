@@ -58,7 +58,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
             exact
             sx={navStyles}
           >
-            RE-STORE
+            FLÈCHE-Z
           </Typography>
           <Switch checked={darkMode} onChange={handleThemeChange} />
         </Box>
