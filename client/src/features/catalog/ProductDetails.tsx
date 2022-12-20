@@ -9,11 +9,11 @@ import {
   Typography,
 } from "@mui/material";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/product";
 
-export default function ProductDetails() {
+export default memo (function ProductDetails() {
   const { id } = useParams<{ id: string }>();
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
@@ -83,4 +83,4 @@ export default function ProductDetails() {
       </Grid>
     </Grid>
   );
-}
+})

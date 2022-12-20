@@ -8,6 +8,7 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
+import { memo } from "react";
 import { Link } from "react-router-dom";
 import { Product } from "../../app/models/product";
 
@@ -15,7 +16,7 @@ interface Props {
   product: Product;
 }
 
-export default function ProductCard({ product }: Props) {
+export default memo (function ProductCard({ product }: Props) {
   return (
     <Card>
       <CardHeader
@@ -52,4 +53,4 @@ export default function ProductCard({ product }: Props) {
       </CardActions>
     </Card>
   );
-}
+})
