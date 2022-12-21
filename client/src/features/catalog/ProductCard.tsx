@@ -18,7 +18,8 @@ interface Props {
 
 export default memo (function ProductCard({ product }: Props) {
   return (
-    <Card>
+    <Card sx={{ backgroundColor: 'rgba(245, 245, 245, 0)', boxShadow: 'none', border: '1px solid #e6e6e6'
+    }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "primary.dark" }}>
@@ -32,7 +33,7 @@ export default memo (function ProductCard({ product }: Props) {
       />
       <CardMedia
         sx={{
-          height: 140,
+          height: 210,
           backgroundSize: "contain",
           bgcolor: "",
         }}
@@ -40,7 +41,7 @@ export default memo (function ProductCard({ product }: Props) {
         title={product.name}
       />
       <CardContent>
-        <Typography gutterBottom color="secondary" variant="h5">
+        <Typography gutterBottom color="secondary" variant="h5" fontSize='15px'>
           €{(product.price / 100).toFixed(2)}
         </Typography>
         <Typography variant="body2" color="text.secondary">

@@ -32,6 +32,7 @@ const navStyles = {
   color: "primary.dark",
   textDecoration: "none",
   typography: "h6",
+  fontSize: '13px',
   "&:hover": {
     color: "grey.500",
   },

@@ -22,7 +22,7 @@ function App() {
     palette: {
       mode: paletteType,
       background: {
-        default: paletteType === "dark" ? "#121212" : "#eaeaea",
+        default: paletteType === "dark" ? "#121212" : "#ffffff",
       },
     },
   });
