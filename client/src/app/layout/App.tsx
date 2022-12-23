@@ -13,6 +13,7 @@ import HomePage from "../../features/home/HomePage";
 import ContactPage from "../../features/contact/ContactPage";
 
 import Header from "./Header";
+import ErrorPage from "../../features/error/ErrorPage";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -36,11 +37,12 @@ function App() {
       <CssBaseline />
       <Header darkMode={darkMode} handleThemeChange={handleThemeChange} />
       <Container>
-        <Route exact path='/' component={HomePage}/>
-        <Route exact path='/catalog' component={Catalog}/>
-        <Route path='/catalog/:id' component={ProductDetails}/>
-        <Route path='/about' component={AboutPage}/>
-        <Route path='/contact' component={ContactPage}/>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/catalog" component={Catalog} />
+        <Route path="/catalog/:id" component={ProductDetails} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/error" component={ErrorPage} />
       </Container>
     </ThemeProvider>
   );
