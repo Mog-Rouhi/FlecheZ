@@ -15,6 +15,7 @@ import {
 import { useState } from "react";
 import agent from "../../app/api/agent";
 import { useStoreContext } from "../../app/context/StoreContext";
+import { currencyFormat } from "../../app/util/util";
 import BasketSummary from "./BasketSummary";
 
 export default function BasketPage() {
@@ -73,7 +74,7 @@ export default function BasketPage() {
                   </Box>
                 </TableCell>
                 <TableCell align="center">
-                  ${(item.price / 100).toFixed(2)}
+                  {currencyFormat(item.price)}
                 </TableCell>
                 <TableCell align="center">
                   <LoadingButton
@@ -105,7 +106,7 @@ export default function BasketPage() {
                   </LoadingButton>
                 </TableCell>
                 <TableCell align="center">
-                  ${((item.price / 100) * item.quantity).toFixed(2)}
+                  {currencyFormat(item.price * item.quantity)}
                 </TableCell>
                 <TableCell align="right">
                   <LoadingButton
