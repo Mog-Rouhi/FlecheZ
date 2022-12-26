@@ -15,198 +15,198 @@ namespace API.Data
             {
                 new Product
                 {
-                    Name = "Wave Ring",
+                    Name = "Single-Rotor",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 20000,
+                    Price = 80000,
                     PictureUrl = "/images/products/img-1.jpg",
-                    Brand = "Angular",
-                    Type = "Boards",
+                    Brand = "Iceberg",
+                    Type = "Syrax",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Braided Ring",
+                    Name = "Fixed-Wing",
                     Description = "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-                    Price = 15000,
+                    Price = 45000,
                     PictureUrl = "/images/products/img-2.jpg",
-                    Brand = "Angular",
-                    Type = "Boards",
+                    Brand = "Terra",
+                    Type = "King",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Snake Ring",
+                    Name = "Multi-Rotor",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-                    Price = 18000,
+                    Price = 68000,
                     PictureUrl = "/images/products/img-3.jpg",
-                    Brand = "NetCore",
-                    Type = "Boards",
+                    Brand = "Ventus",
+                    Type = "Tiamat",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Pavé Diamond Dôme Ring",
+                    Name = "Fixed-Wing Hybrid",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 30000,
+                    Price = 70000,
                     PictureUrl = "/images/products/img-4.jpg",
-                    Brand = "NetCore",
-                    Type = "Boards",
+                    Brand = "Glace",
+                    Type = "Dragon",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Wishbone Stacker Set",
+                    Name = "Small Drone",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 25000,
+                    Price = 30000,
                     PictureUrl = "/images/products/img-5.jpg",
-                    Brand = "React",
-                    Type = "Boards",
+                    Brand = "Ventus",
+                    Type = "Smaug",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Croissant Locket Necklace",
+                    Name = "Micro Drone",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 12000,
+                    Price = 52000,
                     PictureUrl = "/images/products/img-6.jpg",
-                    Brand = "TypeScript",
-                    Type = "Boards",
+                    Brand = "Glace",
+                    Type = "King",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Beaded Gemstone Pendant",
+                    Name = "Tactical Drone",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1000,
+                    Price = 20000,
                     PictureUrl = "/images/products/img-7.jpg",
-                    Brand = "NetCore",
-                    Type = "Hats",
+                    Brand = "Terra",
+                    Type = "Shenron",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Heirloom Pendant",
+                    Name = "Reconnaissance",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 8000,
+                    Price = 80000,
                     PictureUrl = "/images/products/img-8.jpg",
-                    Brand = "React",
-                    Type = "Hats",
+                    Brand = "Ignis",
+                    Type = "Smaug",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Birthstone Sphere Charm",
+                    Name = "Large Combat",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
+                    Price = 104500,
                     PictureUrl = "/images/products/img-9.jpg",
-                    Brand = "React",
-                    Type = "Hats",
+                    Brand = "Terra",
+                    Type = "Tiamat",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Marquise Topaz Earrings",
+                    Name = "Non-Combat Large",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1800,
+                    Price = 15900,
                     PictureUrl = "/images/products/img-10.jpg",
-                    Brand = "VS Code",
-                    Type = "Gloves",
+                    Brand = "Ventus",
+                    Type = "Shenron",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Emerald Gemstone Hoop",
+                    Name = "Target and Decoy",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1500,
+                    Price = 17500,
                     PictureUrl = "/images/products/img-11.jpg",
-                    Brand = "VS Code",
-                    Type = "Gloves",
+                    Brand = "Iceberg",
+                    Type = "Dragon",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Gemstone Jacket Studs",
+                    Name = "GPS Drone",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1600,
+                    Price = 28600,
                     PictureUrl = "/images/products/img-12.jpg",
-                    Brand = "React",
-                    Type = "Gloves",
+                    Brand = "Ignis",
+                    Type = "Tiamat",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Bold Pearl Huggies",
+                    Name = "Photography Drone",
                     Description =
                         "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 1400,
+                    Price = 95500,
                     PictureUrl = "/images/products/img-13.jpg",
-                    Brand = "React",
-                    Type = "Gloves",
+                    Brand = "Ventus",
+                    Type = "Syrax",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Large Charlotte Hoops",
+                    Name = "Racing Drone",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
                     Price = 25000,
                     PictureUrl = "/images/products/img-14.jpg",
-                    Brand = "Redis",
-                    Type = "Boots",
+                    Brand = "Terra",
+                    Type = "Smaug",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Croissant Dôme Bracelet",
+                    Name = "Dronemotion",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-                    Price = 18999,
+                    Price = 19500,
                     PictureUrl = "/images/products/img-15.jpg",
-                    Brand = "NetCore",
-                    Type = "Boots",
+                    Brand = "Glace",
+                    Type = "Tiamat",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Organic Pearl Hoops",
+                    Name = "Drone Mini",
                     Description =
                         "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-                    Price = 19999,
+                    Price = 24500,
                     PictureUrl = "/images/products/img-16.jpg",
-                    Brand = "NetCore",
-                    Type = "Boots",
+                    Brand = "Iceberg",
+                    Type = "Syrax",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Mini Lotus Studs",
+                    Name = "Lite Drone",
                     Description = "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-                    Price = 15000,
+                    Price = 45000,
                     PictureUrl = "/images/products/img-17.jpg",
-                    Brand = "Angular",
-                    Type = "Boots",
+                    Brand = "Ignis",
+                    Type = "Smaug",
                     QuantityInStock = 100
                 },
                 new Product
                 {
-                    Name = "Triple Marquise Studs",
+                    Name = "Inspire DRN",
                     Description =
                         "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
                     Price = 18000,
                     PictureUrl = "/images/products/img-18.jpg",
-                    Brand = "Angular",
-                    Type = "Boots",
+                    Brand = "Ventus",
+                    Type = "Dragon",
                     QuantityInStock = 100
                 },
             };
