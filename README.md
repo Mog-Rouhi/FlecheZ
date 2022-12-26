@@ -1,23 +1,19 @@
 # Fleche-Z
 
-#### E-Commerce Project with React & Redux - State Management Library
-#### MVC _ Model-View-Controller Design Pattern with .NET & C#
-#### Entity Framework Migrations, DTOs (Data Transfer Objects)
+* #### E-Commerce Project with React & Redux - State Management Library
+* #### MVC _ Model-View-Controller Architectural Pattern with .NET & C#
+* #### Building a RESTful API with .NET Controllers
+* #### Entity Framework Migrations, DTOs (Data Transfer Objects)
 ***
-### Frontend
-* React 
-* Redux 
-* TypeScript 
-* Node 
-* Material UI
-### Backend
-* .NET 
-* C# 
-* MVC
-* EF
-* DTO
-### Database
-* SQLite
+
+| Frontend     | Database  | Backend|
+| :---         |:---------:|  ---:  |
+| React        |   SQLite  |  .NET  |
+| Redux        |           |  C#    |
+| TypeScript   |           |  MVC   |
+| Node         |           |  EF    |
+| Material UI  |           |  DTO   |
+
 
 ***
 ## Environmental variable
