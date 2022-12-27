@@ -1,6 +1,6 @@
 # Fleche-Z
 
-* #### E-Commerce Project with React & Redux - State Management Library
+* #### E-Commerce Project with RypeScript, React & Redux 
 * #### MVC _ Model-View-Controller Architectural Pattern with .NET & C#
 * #### Building a RESTful API with .NET Controllers
 * #### Entity Framework Migrations, DTOs (Data Transfer Objects)
@@ -26,7 +26,7 @@
 Material UI
 ```
 ```
-React Router
+React Router Dom | Redux- State Management Library | Redux-React
 ```
 ```
 React-Toastify
@@ -37,6 +37,7 @@ Axios
 
 
 ***
-<img src="./client/public/images/readme/fleche-z-1.png" alt="" style="width:1000px;"/>
+<img src="./client/public/images/readme/fleche-z-2.png" alt="" style="width:1000px;"/>
 <img src="./client/public/images/readme/fleche-z-3.png" alt="" style="width:1000px;"/>
+<img src="./client/public/images/readme/fleche-z-0.png" alt="" style="width:1000px;"/>
 
