@@ -1,6 +1,6 @@
 # Fleche-Z
 
-* #### E-Commerce Project with RypeScript, React & Redux 
+* #### E-Commerce Project with TypeScript, Node, React & Redux 
 * #### MVC _ Model-View-Controller Architectural Pattern with .NET & C#
 * #### Building a RESTful API with .NET Controllers
 * #### Entity Framework Migrations, DTOs (Data Transfer Objects)
@@ -9,9 +9,9 @@
 | Frontend     | Database  | Backend|
 | :---         |:---------:|  ---:  |
 | React        |   SQLite  |  .NET  |
-| Redux        |           |  C#    |
+| Node         |           |  C#    |
 | TypeScript   |           |  MVC   |
-| Node         |           |  EF    |
+| Redux        |           |  EF    |
 | Material UI  |           |  DTO   |
 
 
@@ -21,12 +21,14 @@
 ***
 
 ## Packages
-
+```
+Redux - State Management Library | Redux-React
+```
 ```
 Material UI
 ```
 ```
-React Router Dom | Redux- State Management Library | Redux-React
+React Router Dom 
 ```
 ```
 React-Toastify
