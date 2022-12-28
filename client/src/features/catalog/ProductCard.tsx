@@ -45,7 +45,7 @@ export default memo(function ProductCard({ product }: Props) {
       />
       <CardMedia
         sx={{
-          height: 210,
+          height: 180,
           backgroundSize: "contain",
           bgcolor: "",
         }}
