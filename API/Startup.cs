@@ -35,7 +35,10 @@ namespace API
             });
             services.AddCors();
             services
-                .AddIdentityCore<User>()
+                .AddIdentityCore<User>(opt =>
+                {
+                    opt.User.RequireUniqueEmail = true;
+                })
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<StoreContext>();
             services.AddAuthentication();
