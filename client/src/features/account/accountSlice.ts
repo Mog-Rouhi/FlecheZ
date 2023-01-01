@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice, isAnyOf } from "@reduxjs/toolkit";
 import { FieldValues } from "react-hook-form";
+import { toast } from "react-toastify";
 import { history } from "../..";
 import agent from "../../app/api/agent";
 import { User } from "../../app/models/user";
@@ -64,6 +65,7 @@ export const accountSlice = createSlice({
     builder.addCase(fetchCurrentUser.rejected, (state) => {
       state.user = null;
       localStorage.removeItem("user");
+      toast.error("Session expired, please login again.");
       history.push("/");
     });
     builder.addMatcher(
