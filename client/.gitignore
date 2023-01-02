@@ -13,10 +13,6 @@
 ErrorPage.tsx
 Test.tsx
 
-#
-.env.development
-.env.production
-
 # production
 /build
 
