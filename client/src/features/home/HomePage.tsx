@@ -5,14 +5,18 @@ export default function HomePage() {
   const settings = {
     dots: true,
     infinite: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    className: 'notes-slider',
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
 
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} >
         <div>
           <img
             src="/images/img-19.jpg"
