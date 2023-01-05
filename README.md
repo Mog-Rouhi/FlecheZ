@@ -6,17 +6,17 @@
 * #### Entity Framework Migrations, DTOs (Data Transfer Objects)
 ***
 
-| Frontend     | Database  | Backend|
-| :---         |:---------:|  ---:  |
-| React        |   SQLite  |  .NET  |
-| Node         |           |  C#    |
-| TypeScript   |           |  MVC   |
-| Redux        |           |  EF    |
-| Material UI  |           |  DTO   |
+| Frontend     |   Database   | Backend|
+| :---         |:-----------: |  ---:  |
+| React        |   SQLite     |  .NET  |
+| Node         |   PostgreSQL |  C#    |
+| TypeScript   |              |  MVC   |
+| Redux        |              |  EF    |
+| Material UI  |              |  DTO   |
 
 ***
 
-## [See the DEMO](https://flechez.fly.dev/)
+## <a href="https://flechez.fly.dev/" target="_blank">See the DEMO!</a>
 
 ## Environmental variable
 
