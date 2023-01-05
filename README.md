@@ -16,7 +16,7 @@
 
 ***
 
-## <a href="https://flechez.fly.dev/" target="_blank">See the DEMO!</a>
+## [See the DEMO!](https://flechez.fly.dev/)
 
 ## Environmental variable
 
